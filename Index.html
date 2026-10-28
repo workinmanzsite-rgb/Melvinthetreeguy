@@ -30,7 +30,6 @@
   a:hover{text-decoration:underline;}
   .wrap{max-width:1100px;margin:0 auto;padding:0 20px;}
 
-  /* ---------- Header / Nav ---------- */
   header{
     position:sticky;top:0;z-index:50;
     background:rgba(250,248,244,.96);
@@ -46,7 +45,6 @@
   .nav-actions{display:flex;gap:10px;flex-wrap:wrap;}
   .btn-sm{padding:9px 16px;font-size:.85rem;}
 
-  /* ---------- Buttons ---------- */
   .btn{
     display:inline-flex;align-items:center;justify-content:center;gap:8px;
     padding:14px 24px;border-radius:999px;
@@ -61,14 +59,12 @@
   .btn-outline{border-color:var(--green);color:var(--green);background:transparent;}
   .btn-outline:hover{background:var(--green);color:#fff;text-decoration:none;transform:translateY(-2px);}
 
-  /* ---------- Free estimate banner ---------- */
   .banner{
     background:var(--green-dark);color:#eaf5ee;text-align:center;
     padding:10px 16px;font-size:.9rem;font-weight:700;letter-spacing:.3px;
   }
   .banner span{color:#b7e2c8;}
 
-  /* ---------- Hero ---------- */
   .hero{
     background:linear-gradient(160deg,#e8f3ec 0%,#faf8f4 70%);
     padding:64px 0 56px;
@@ -92,7 +88,6 @@
   }
   .hero-art svg{width:100%;max-width:300px;height:auto;}
 
-  /* ---------- Sections ---------- */
   section{padding:70px 0;}
   .section-head{text-align:center;max-width:660px;margin:0 auto 44px;}
   .eyebrow{
@@ -105,7 +100,6 @@
   }
   .section-head p{color:var(--muted);}
 
-  /* ---------- Service cards ---------- */
   .cards{
     display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;
   }
@@ -122,7 +116,6 @@
   .card h3{font-size:1.05rem;color:var(--green-dark);margin-bottom:6px;}
   .card p{color:var(--muted);font-size:.92rem;}
 
-  /* ---------- Why us ---------- */
   .why{background:#fff;border-top:1px solid #e6e3db;border-bottom:1px solid #e6e3db;}
   .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:30px;}
   .why-item h3{display:flex;align-items:center;gap:10px;font-size:1rem;color:var(--green-dark);margin-bottom:6px;}
@@ -132,7 +125,6 @@
   }
   .why-item p{color:var(--muted);font-size:.92rem;}
 
-  /* ---------- Contact ---------- */
   #contact{background:linear-gradient(160deg,#f4f9f5 0%,#faf8f4 100%);}
   .contact-card{
     background:#fff;border:1px solid #e6e3db;border-radius:20px;
@@ -152,7 +144,6 @@
   .contact-detail strong{color:var(--green-dark);}
   .contact-detail a{word-break:break-word;}
 
-  /* ---------- Footer ---------- */
   footer{background:var(--bark);color:#d9d3cc;padding:40px 0 26px;font-size:.9rem;}
   .foot-grid{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap;margin-bottom:26px;}
   footer .brand{color:#fff;margin-bottom:8px;}
@@ -160,7 +151,6 @@
   footer p{margin-bottom:4px;}
   .foot-bottom{border-top:1px solid #55483f;padding-top:18px;text-align:center;color:#a89e95;font-size:.8rem;}
 
-  /* ---------- Responsive ---------- */
   @media (max-width:860px){
     .hero-grid{grid-template-columns:1fr;}
     .hero-art{order:-1;min-height:190px;padding:18px;}
@@ -179,10 +169,8 @@
 </head>
 <body>
 
-<!-- ================= FREE ESTIMATE BANNER ================= -->
 <div class="banner">🌳 FREE ESTIMATES · <span>Call, text, or email today</span> · Licensed &amp; Insured</div>
 
-<!-- ================= HEADER ================= -->
 <header>
   <div class="wrap nav">
     <a href="#" class="brand" aria-label="Melvin the Tree Guy home">
@@ -204,7 +192,6 @@
   </div>
 </header>
 
-<!-- ================= HERO ================= -->
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
@@ -243,7 +230,6 @@
   </div>
 </section>
 
-<!-- ================= SERVICES ================= -->
 <section id="services">
   <div class="wrap">
     <div class="section-head">
@@ -299,7 +285,6 @@
   </div>
 </section>
 
-<!-- ================= WHY US ================= -->
 <section class="why" id="why">
   <div class="wrap">
     <div class="section-head">
@@ -328,7 +313,6 @@
   </div>
 </section>
 
-<!-- ================= CONTACT ================= -->
 <section id="contact">
   <div class="wrap">
     <div class="contact-card">
@@ -361,7 +345,6 @@
   </div>
 </section>
 
-<!-- ================= FOOTER ================= -->
 <footer>
   <div class="wrap">
     <div class="foot-grid">
@@ -397,4 +380,4 @@
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 </body>
-  </html>
+</html>
